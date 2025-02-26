@@ -1,0 +1,268 @@
+{
+  "name": "material-theme-for-vscode",
+  "colors": {
+    "editor.background": "#263238",
+    "editor.foreground": "#EEFFFF",
+    "editorCursor.foreground": "#FFCC00",
+    "editor.selectionBackground": "#546E7A80",
+    "editor.lineHighlightBackground": "#314549",
+    "editorGutter.background": "#263238",
+    "editorGutter.modifiedBackground": "#FFCB6B",
+    "editorGutter.addedBackground": "#C3E88D",
+    "editorGutter.deletedBackground": "#FF5370",
+    "activityBar.background": "#1E272C",
+    "activityBar.foreground": "#EEFFFF",
+    "activityBarBadge.background": "#007ACC",
+    "activityBarBadge.foreground": "#EEFFFF",
+    "sideBar.background": "#1E272C",
+    "sideBar.foreground": "#EEFFFF",
+    "sideBarTitle.foreground": "#BBBBBB",
+    "statusBar.background": "#1E272C",
+    "statusBar.foreground": "#EEFFFF",
+    "statusBar.noFolderBackground": "#1E272C",
+    "statusBar.debuggingBackground": "#FF5370",
+    "tab.activeBackground": "#314549",
+    "tab.inactiveBackground": "#1E272C",
+    "tab.activeForeground": "#EEFFFF",
+    "tab.inactiveForeground": "#BBBBBB"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "JSDoc Comments",
+      "scope": ["comment.block.documentation", "comment.block.documentation.jsdoc"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "JSDoc Tags",
+      "scope": ["entity.name.tag.jsdoc", "keyword.other.jsdoc"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "JSDoc Types",
+      "scope": ["support.type.jsdoc"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator", "punctuation"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": ["entity.name.class", "support.class"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": ["entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "TypeScript Types",
+      "scope": ["support.type.primitive.ts", "support.type.builtin.ts"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "TypeScript Interfaces",
+      "scope": ["entity.name.type.interface.ts"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "TypeScript Generics",
+      "scope": ["meta.type.parameters.ts"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "React JSX Tags",
+      "scope": ["entity.name.tag.jsx"],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "React JSX Attributes",
+      "scope": ["entity.other.attribute-name.jsx"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Angular Decorators",
+      "scope": ["meta.decorator.angular", "entity.name.decorator.angular"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Angular Templates",
+      "scope": ["text.html.angular"],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": ["text.html.basic entity.other.attribute-name"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": ["source.css support.type.property-name"],
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "Markdown Headings",
+      "scope": ["markdown.heading"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Markdown Links",
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#82AAFF",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Markdown Italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Keys",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "JSON Strings",
+      "scope": ["string.quoted.json"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "JSON Numbers",
+      "scope": ["constant.numeric.json"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "JSON Booleans",
+      "scope": ["constant.language.json"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JSON Null",
+      "scope": ["constant.language.null.json"],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    }
+  ]
+}
