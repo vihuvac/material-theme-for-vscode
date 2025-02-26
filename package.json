@@ -2,10 +2,11 @@
   "name": "material-theme-for-vscode",
   "displayName": "Material Theme for VSCode",
   "description": "A beautifully crafted Visual Studio Code theme inspired by Material Design.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Víctor Hugo Valle Castillo",
   "publisher": "vihuvac",
+  "icon": "./images/material-design.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/vihuvac/material-theme-for-vscode.git"
