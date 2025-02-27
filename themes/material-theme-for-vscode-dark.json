@@ -263,6 +263,81 @@
       "settings": {
         "foreground": "#FF5370"
       }
+    },
+    {
+      "name": "Python Keywords",
+      "scope": ["source.python keyword"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Python Imports",
+      "scope": ["source.python meta.import"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Python Functions",
+      "scope": ["source.python entity.name.function"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Python Inner Variables (Parameters)",
+      "scope": ["source.python variable.parameter"],
+      "settings": {
+        "foreground": "#F67B56"
+      }
+    },
+    {
+      "name": "Python Strings",
+      "scope": [
+        "source.python string",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Python Numbers",
+      "scope": ["source.python constant.numeric"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Python Comments",
+      "scope": ["source.python comment"],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python Class Names",
+      "scope": ["source.python entity.name.class"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Python Decorators",
+      "scope": ["source.python meta.decorator"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Python Built-in Types",
+      "scope": ["source.python support.type"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+      }
     }
   ]
 }
