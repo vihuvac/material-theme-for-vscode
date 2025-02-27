@@ -99,7 +99,7 @@ We welcome contributions from the community! If you’d like to contribute to th
 
 - Open a Pull Request.
 
-Please ensure your code follows the project’s coding standards and includes appropriate documentation.
+Please ensure your code follows the project’s coding standards and includes appropriate documentation. All the commits must be signed.
 
 ## 📜 License
 
@@ -111,7 +111,7 @@ If you have any feedback, suggestions, or issues, please [open an issue](https:/
 
 ## 🙏 Credits
 
-- Inspired by the Material Theme.
+- Inspired by the Material Design.
 
 - Developed with ❤️ by Víctor Hugo Valle Castillo.
 
