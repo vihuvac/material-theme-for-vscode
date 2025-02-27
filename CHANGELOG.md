@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2025-02-27
+
+There is not a specific ticket for these changes.
+
+### Added
+
+- Improvements for C# and Python.
+
 ## [0.0.2] - 2025-02-25
 
 There is not a specific ticket for these changes.
