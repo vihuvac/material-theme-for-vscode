@@ -337,6 +337,75 @@
       "settings": {
         "foreground": "#89DDFF"
       }
+    },
+    {
+      "name": "C# Keywords",
+      "scope": ["source.cs keyword"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "C# Regions",
+      "scope": [
+        "keyword.preprocessor.region.cs",
+        "keyword.preprocessor.endregion.cs",
+        "meta.preprocessor.region.cs",
+        "meta.preprocessor.endregion.cs",
+        "string.unquoted.preprocessor.message.cs"
+      ],
+      "settings": {
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "C# Types",
+      "scope": ["source.cs entity.name.type"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "C# Methods",
+      "scope": ["source.cs entity.name.function"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "C# Strings",
+      "scope": ["source.cs string"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "C# Numbers",
+      "scope": ["source.cs constant.numeric"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "C# Comments",
+      "scope": ["source.cs comment"],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Attributes",
+      "scope": ["source.cs meta.attribute"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "C# Control Flow",
+      "scope": ["source.cs keyword.control"],
+      "settings": {
+        "foreground": "#89DDFF"
       }
     }
   ]
