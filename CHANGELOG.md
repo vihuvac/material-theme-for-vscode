@@ -14,6 +14,7 @@ There is not a specific ticket for these changes.
 ### Added
 
 - Improvements for C# and Python.
+- A GitHub Action to automate the new version publishing after the PR has been approved and merged.
 
 ## [0.0.2] - 2025-02-25
 
