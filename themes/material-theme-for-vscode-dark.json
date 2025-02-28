@@ -58,6 +58,22 @@
       }
     },
     {
+      "name": "Punctuation in JSDoc, Yaml, and XML",
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.string.begin.yaml",
+        "punctuation.definition.string.end.yaml",
+        "punctuation.separator.key-value.mapping.yaml",
+        "punctuation.definition.tag.xml",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
@@ -114,6 +130,13 @@
       }
     },
     {
+      "name": "Javascript",
+      "scope": ["support.type.object.module.js"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
       "name": "Types",
       "scope": ["entity.name.type", "support.type"],
       "settings": {
@@ -143,16 +166,78 @@
     },
     {
       "name": "React JSX Tags",
-      "scope": ["entity.name.tag.jsx"],
+      "scope": [
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx"
+      ],
       "settings": {
         "foreground": "#F07178"
       }
     },
     {
       "name": "React JSX Attributes",
-      "scope": ["entity.other.attribute-name.jsx"],
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.jsx"
+      ],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Punctuation in JavaScript/TypeScript",
+      "scope": [
+        "punctuation.accessor.js",
+        "punctuation.accessor.jsx",
+        "punctuation.accessor.ts",
+        "punctuation.accessor.tsx",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.begin.jsx",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.begin.tsx",
+        "punctuation.definition.string.end.js",
+        "punctuation.definition.string.end.jsx",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.end.tsx",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.begin.jsx",
+        "punctuation.definition.string.template.begin.ts",
+        "punctuation.definition.string.template.begin.tsx",
+        "punctuation.definition.string.template.end.js",
+        "punctuation.definition.string.template.end.jsx",
+        "punctuation.definition.string.template.end.ts",
+        "punctuation.definition.string.template.end.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.jsx",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.tsx",
+        "punctuation.separator.key-value.js",
+        "punctuation.separator.key-value.jsx",
+        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value.tsx",
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.jsx",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.tsx"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Templates in Javascript/TypeScript",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
       }
     },
     {
@@ -200,9 +285,9 @@
     },
     {
       "name": "Markdown Headings",
-      "scope": ["markdown.heading"],
+      "scope": ["punctuation.definition.heading.markdown"],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#B2CCD6"
       }
     },
     {
@@ -230,6 +315,65 @@
       }
     },
     {
+      "name": "Markdown Punctuation",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.markdown",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.list.end.markdown",
+        "punctuation.definition.link.title.begin.markdown",
+        "punctuation.definition.link.title.end.markdown",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.quote.begin.markdown",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Markdown Separators",
+      "scope": ["punctuation.separator.key-value.html"],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "JSON Keys Quotes",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "JSON Values Quotes",
+      "scope": [
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "JSON Punctuation",
+      "scope": [
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json.comments"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
       "name": "JSON Keys",
       "scope": ["support.type.property-name.json"],
       "settings": {
@@ -238,16 +382,16 @@
     },
     {
       "name": "JSON Strings",
-      "scope": ["string.quoted.json"],
+      "scope": ["string.quoted.double.json"],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#F78C6C"
       }
     },
     {
       "name": "JSON Numbers",
       "scope": ["constant.numeric.json"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#C3E88D"
       }
     },
     {
@@ -262,6 +406,60 @@
       "scope": ["constant.language.null.json"],
       "settings": {
         "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Yaml Booleans",
+      "scope": ["constant.language.boolean.yaml"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Yaml Null",
+      "scope": ["constant.language.null.yaml"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Shell Arguments",
+      "scope": [
+        "string.unquoted.argument.shell"
+      ],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Shell Script",
+      "scope": [
+        "constant.other.option.dash.shell"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Shell Arguments",
+      "scope": [
+        "constant.other.option",
+        "punctuation.definition.subshell.single.shell"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Shell Punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.shell",
+        "punctuation.definition.string.end.shell",
+        "punctuation.separator.statement.and.shell",
+        "punctuation.terminator.statement.semicolon.shell"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
       }
     },
     {
