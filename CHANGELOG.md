@@ -13,7 +13,7 @@ There is not a specific ticket for these changes.
 
 ## Added
 
-- Enhancements to the color representations for boolean, null, and undefined values in JavaScript and TypeScript.
+- Enhancements to the colour representations for `boolean`, `null`, and `undefined` values in **JavaScript** and **TypeScript**.
 
 ## [0.0.4] - 2025-02-27
 
