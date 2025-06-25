@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 2025-06-25
+
+There is not a specific ticket for these changes.
+
+## Added
+
+- Enhancements to the color representations for boolean, null, and undefined values in JavaScript and TypeScript.
+
 ## [0.0.4] - 2025-02-27
 
 There is not a specific ticket for these changes.
