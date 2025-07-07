@@ -31,6 +31,7 @@
       "name": "Comment",
       "scope": [
         "comment",
+        "comment.line.double-slash",
         "punctuation.definition.comment"
       ],
       "settings": {
@@ -129,7 +130,8 @@
       "name": "Functions",
       "scope": [
         "entity.name.function",
-        "support.function"
+        "support.function",
+        "variable.language.super"
       ],
       "settings": {
         "foreground": "#82AAFF"
@@ -164,9 +166,10 @@
       }
     },
     {
-      "name": "Javascript",
+      "name": "Javascript/Typescript",
       "scope": [
-        "support.type.object.module.js"
+        "support.type.object.module.js",
+        "support.type.object.module.ts"
       ],
       "settings": {
         "foreground": "#82AAFF"
@@ -193,9 +196,10 @@
       }
     },
     {
-      "name": "TypeScript Interfaces",
+      "name": "TypeScript Classes and Interfaces",
       "scope": [
-        "entity.name.type.interface.ts"
+        "entity.name.type.interface.ts",
+        "entity.other.inherited-class.ts"
       ],
       "settings": {
         "foreground": "#FFCB6B"
@@ -237,6 +241,10 @@
         "punctuation.accessor.jsx",
         "punctuation.accessor.ts",
         "punctuation.accessor.tsx",
+        "punctuation.decorator.js",
+        "punctuation.decorator.jsx",
+        "punctuation.decorator.ts",
+        "punctuation.decorator.tsx",
         "punctuation.definition.string.begin.js",
         "punctuation.definition.string.begin.jsx",
         "punctuation.definition.string.begin.ts",
@@ -377,6 +385,7 @@
     {
       "name": "Markdown Headings",
       "scope": [
+        "fenced_code.block.language.markdown",
         "punctuation.definition.heading.markdown"
       ],
       "settings": {
@@ -784,6 +793,7 @@
         "storage.type.interface.php",
         "keyword.control.import.include.php",
         "storage.modifier.implements.php",
+        "keyword.control.declare.php",
         "keyword.control.exception.catch.php",
         "keyword.control.exception.php",
         "keyword.control.foreach.php",
@@ -795,7 +805,7 @@
         "keyword.other.new.php"
       ],
       "settings": {
-        "foreground": "#E1A679"
+        "foreground": "#F78C6C"
       }
     },
     {
@@ -827,8 +837,7 @@
         "support.constant.std.php",
         "support.constant.ext.php",
         "support.constant.core.php",
-        "constant.other.class.php",
-        "constant.other.php"
+        "constant.other.class.php"
       ],
       "settings": {
         "foreground": "#B59BD1",
@@ -846,12 +855,13 @@
         "entity.name.function.php"
       ],
       "settings": {
-        "foreground": "#7BC4F7"
+        "foreground": "#82AAFF"
       }
     },
     {
       "name": "PHP Operators and Punctuation",
       "scope": [
+        "constant.other.php",
         "keyword.operator.key.php",
         "keyword.operator.class.php",
         "keyword.operator.ternary.php",
@@ -867,6 +877,7 @@
         "keyword.operator.increment-decrement.php",
         "punctuation.terminator.expression.php",
         "punctuation.separator.delimiter.php",
+        "punctuation.separator.inheritance.php",
         "keyword.definition.arrow.php",
         "keyword.operator.string.php",
         "source.sql.embedded.php",
@@ -877,21 +888,16 @@
       }
     },
     {
-      "name": "PHP Namespaces",
+      "name": "PHP classes and Namespaces",
       "scope": [
         "meta.class.php support.other.namespace.php",
-        "meta.class.php meta.class.body.php meta.method-call.php support.other.namespace.php"
-      ],
-      "settings": {
-        "foreground": "#9FA5AB"
-      }
-    },
-    {
-      "name": "PHP Classes",
-      "scope": [
+        "meta.class.php meta.class.body.php meta.method-call.php support.other.namespace.php",
         "support.class.php",
+        "support.other.namespace.php",
         "support.class.builtin.php",
-        "entity.name.type.class.php"
+        "entity.name.type.class.php",
+        "entity.name.type.namespace.php",
+        "entity.other.inherited-class.php"
       ],
       "settings": {
         "foreground": "#E8E8E8"
@@ -940,7 +946,6 @@
       "name": "PHP Property Names",
       "scope": [
         "constant.other.table-name.sql",
-        "support.type.property-name.json",
         "variable.other.property.php"
       ],
       "settings": {
@@ -951,8 +956,8 @@
       "name": "PHP Attributes",
       "scope": [
         "meta.attribute.php",
-        "punctuation.decorator",
-        "meta.decorator entity.name.function",
+        "punctuation.decorator.php",
+        "meta.decorator entity.name.function.php",
         "constant.other.character-class.regexp",
         "meta.attribute.php support.attribute.php",
         "meta.class.php meta.attribute.php support.other.namespace.php"
