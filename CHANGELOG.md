@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 2025-07-07
+
+There is not a specific ticket for these changes.
+
+## Added
+
+- Enhancements exclusively for PHP to improve the UX while maintaining Material UI style.
+
 ## [0.0.5] - 2025-06-25
 
 There is not a specific ticket for these changes.
