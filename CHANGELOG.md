@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.8] - 2025-08-07
+
+There is not a specific ticket for these changes.
+
+## Changed
+
+- Enhancements exclusively for Terraform to improve the UX while maintaining Material UI style.
+
 ## [0.0.7] - 2025-07-07
 
 There is not a specific ticket for these changes.
