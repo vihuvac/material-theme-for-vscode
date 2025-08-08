@@ -1,0 +1,212 @@
+{
+  "tokenColors": [
+    {
+      "name": "JSDoc Comments",
+      "scope": [
+        "comment.block.documentation",
+        "comment.block.documentation.jsdoc"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "JSDoc Tags",
+      "scope": [
+        "entity.name.tag.jsdoc",
+        "keyword.other.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "JSDoc Types",
+      "scope": [
+        "support.type.jsdoc"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Punctuation in JSDoc, Yaml, and XML",
+      "scope": [
+        "punctuation.definition.block.tag.jsdoc",
+        "punctuation.definition.block.sequence.item.yaml",
+        "punctuation.definition.string.begin.yaml",
+        "punctuation.definition.string.end.yaml",
+        "punctuation.separator.key-value.mapping.yaml",
+        "punctuation.definition.tag.xml",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Javascript/Typescript",
+      "scope": [
+        "support.type.object.module.js",
+        "support.type.object.module.ts"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "TypeScript Types",
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.builtin.ts"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "TypeScript Classes and Interfaces",
+      "scope": [
+        "entity.name.type.interface.ts",
+        "entity.other.inherited-class.ts"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "TypeScript Generics",
+      "scope": [
+        "meta.type.parameters.ts"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "React JSX Tags",
+      "scope": [
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "React JSX Attributes",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.jsx"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Punctuation in JavaScript/TypeScript",
+      "scope": [
+        "punctuation.accessor.js",
+        "punctuation.accessor.jsx",
+        "punctuation.accessor.ts",
+        "punctuation.accessor.tsx",
+        "punctuation.decorator.js",
+        "punctuation.decorator.jsx",
+        "punctuation.decorator.ts",
+        "punctuation.decorator.tsx",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.begin.jsx",
+        "punctuation.definition.string.template.begin.ts",
+        "punctuation.definition.string.template.begin.tsx",
+        "punctuation.definition.string.template.end.js",
+        "punctuation.definition.string.template.end.jsx",
+        "punctuation.definition.string.template.end.ts",
+        "punctuation.definition.string.template.end.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.jsx",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.tsx",
+        "punctuation.separator.key-value.js",
+        "punctuation.separator.key-value.jsx",
+        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value.tsx",
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.jsx",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.tsx"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Templates in Javascript/TypeScript",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript/TypeScript Constants (boolean)",
+      "scope": [
+        "constant.language.boolean.true.js",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.boolean.true.jsx",
+        "constant.language.boolean.false.jsx",
+        "constant.language.boolean.true.tsx",
+        "constant.language.boolean.false.tsx"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "JavaScript/TypeScript Constants (null, undefined)",
+      "scope": [
+        "constant.language.null.js",
+        "constant.language.null.ts",
+        "constant.language.null.jsx",
+        "constant.language.null.tsx",
+        "constant.language.undefined.js",
+        "constant.language.undefined.ts",
+        "constant.language.undefined.jsx",
+        "constant.language.undefined.tsx"
+      ],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Angular Decorators",
+      "scope": [
+        "meta.decorator.angular",
+        "entity.name.decorator.angular"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Angular Templates",
+      "scope": [
+        "text.html.angular"
+      ],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    }
+  ]
+}

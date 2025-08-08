@@ -1,0 +1,196 @@
+{
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment.line.double-slash",
+        "comment.line.number-sign",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "String Quotation Marks",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json",
+        "punctuation.definition.string.begin.terraform",
+        "punctuation.definition.string.end.terraform",
+        "punctuation.definition.string.begin.hcl",
+        "punctuation.definition.string.end.hcl",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.begin.jsx",
+        "punctuation.definition.string.end.jsx",
+        "punctuation.definition.string.begin.tsx",
+        "punctuation.definition.string.end.tsx",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python",
+        "punctuation.definition.string.begin.php",
+        "punctuation.definition.string.end.php",
+        "punctuation.definition.string.begin.cs",
+        "punctuation.definition.string.end.cs",
+        "punctuation.definition.string.begin.yaml",
+        "punctuation.definition.string.end.yaml",
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.definition.string.begin.shell",
+        "punctuation.definition.string.end.shell",
+        "source.terraform punctuation.definition.string.terraform",
+        "source.hcl punctuation.definition.string.hcl"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Booleans (All Languages)",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.boolean.true",
+        "constant.language.boolean.false",
+        "constant.language.boolean.true.js",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.boolean.true.jsx",
+        "constant.language.boolean.false.jsx",
+        "constant.language.boolean.true.tsx",
+        "constant.language.boolean.false.tsx",
+        "constant.language.boolean.terraform",
+        "source.terraform constant.language.boolean.terraform",
+        "constant.language.boolean.hcl",
+        "source.hcl constant.language.boolean.hcl",
+        "constant.language.hcl",
+        "source.hcl.terraform constant.language.hcl",
+        "source.hcl constant.language.hcl",
+        "constant.language.boolean.yaml",
+        "constant.language.json",
+        "constant.language.boolean.python",
+        "constant.language.boolean.php",
+        "constant.language.boolean.cs"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": [
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    }
+  ]
+}

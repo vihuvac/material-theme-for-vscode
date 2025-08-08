@@ -2,7 +2,8 @@
   "name": "material-theme-for-vscode",
   "displayName": "Material Theme for VSCode",
   "description": "A beautifully crafted Visual Studio Code theme inspired by Material Design.",
-  "version": "0.0.8",
+  "version": "0.1.0",
+  "type": "module",
   "license": "MIT",
   "author": "Víctor Hugo Valle Castillo",
   "publisher": "vihuvac",
@@ -24,6 +25,14 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "node --experimental-strip-types src/build.ts",
+    "build:deno": "deno run --allow-read --allow-write src/build.ts",
+    "dev": "npm run build && echo 'Theme rebuilt - reload VS Code to see changes'",
+    "prebuild": "echo 'Building Material Theme from source files...'",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
   "contributes": {
     "themes": [
       {

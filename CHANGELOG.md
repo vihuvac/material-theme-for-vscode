@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2025-08-07
+
+There is not a specific ticket for these changes.
+
+### Added
+
+- Modular build system with TypeScript support and zero dependencies.
+- Comprehensive documentation with contributing guidelines and architecture docs
+- Type-safe theme structure with full TypeScript interfaces.
+
+### Changed
+
+- Updated GitHub Actions workflow for building and publishing.
+- Migrated from monolithic theme file to modular source directory structure.
+- Replaced manual theme editing with automated build process.
+- Reorganized project files into logical base and language-specific modules.
+- Consolidated development documentation into organized docs directory.
+- Improved file naming for better clarity and maintainability.
+
+### Fixed
+
+- Boolean values now consistently styled in purple across all languages.
+- Terraform 'resource' keyword properly styled in white.
+- String quotation marks consistently colored in cyan.
+- Eliminated duplicate rules in generated theme files.
+- Syntax highlighting now works correctly for .hcl files.
+
 ## [0.0.8] - 2025-08-07
 
 There is not a specific ticket for these changes.
