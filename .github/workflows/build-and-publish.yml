@@ -23,9 +23,9 @@ jobs:
         with:
           node-version: 22
 
-      # Build the theme from source files (using Node 22 built-in TypeScript support)
+      # Build the theme from source files (using npm script)
       - name: Build theme from source files
-        run: node --experimental-strip-types src/build.ts
+        run: npm run build
 
       # Verify the theme was built
       - name: Verify theme build
