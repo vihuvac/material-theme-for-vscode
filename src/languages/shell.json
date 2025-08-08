@@ -1,0 +1,44 @@
+{
+  "tokenColors": [
+    {
+      "name": "Shell Arguments",
+      "scope": [
+        "string.unquoted.argument.shell"
+      ],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "Shell Script",
+      "scope": [
+        "constant.other.option.dash.shell"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Shell Options",
+      "scope": [
+        "constant.other.option",
+        "punctuation.definition.subshell.single.shell"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Shell Punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.shell",
+        "punctuation.definition.string.end.shell",
+        "punctuation.separator.statement.and.shell",
+        "punctuation.terminator.statement.semicolon.shell"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    }
+  ]
+}

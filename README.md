@@ -31,7 +31,7 @@ A beautifully crafted Visual Studio Code theme inspired by **Material Design**, 
 
 - **Customizable**: Easily tweak the theme to suit your preferences.
 
-- **Dark Mode**: A soothing dark theme that’s easy on the eyes during long coding sessions.
+- **Dark Mode**: A soothing dark theme that's easy on the eyes during long coding sessions.
 
 ## 🛠 Installation
 
@@ -49,7 +49,7 @@ A beautifully crafted Visual Studio Code theme inspired by **Material Design**, 
 
 ## 🎨 Customization
 
-You can customize the theme to better suit your preferences by editing your VS Code settings. Here’s an example of how to tweak the theme:
+You can customize the theme to better suit your preferences by editing your VS Code settings. Here's an example of how to tweak the theme:
 
 ```json
 "workbench.colorCustomizations": {
@@ -66,40 +66,56 @@ You can customize the theme to better suit your preferences by editing your VS C
 This theme provides enhanced syntax highlighting for the following languages and frameworks:
 
 - **JavaScript**
-
 - **TypeScript**
-
 - **React (JSX/TSX)**
-
 - **Angular**
-
 - **JSON**
-
 - **HTML**
-
 - **CSS/SCSS**
-
 - **Python**
-
+- **C#**
+- **PHP**
+- **Terraform/HCL**
+- **Shell/Bash**
 - **Markdown**
-
 - And more!
 
 ## 🚀 Contributing
 
-We welcome contributions from the community! If you’d like to contribute to this project, please follow these steps:
+We welcome contributions from the community! Whether you want to improve language support, fix bugs, or enhance the documentation, your help is appreciated.
 
-- Fork the repository.
+### Quick Start
 
-- Create a new branch (`git checkout -b feature/YourFeatureName`).
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feat/your-feature`)
+3. **Make your changes** (see development docs for details)
+4. **Build and test** (`npm run build`)
+5. **Commit with signing** (`git commit -S -m "feat: your change"`)
+6. **Push and create PR** (`git push origin feat/your-feature`)
 
-- Commit your changes (`git commit -m 'Add some feature'`).
+### 📚 Documentation
 
-- Push to the branch (`git push origin feature/YourFeatureName`).
+For detailed contribution guidelines, development setup, and project architecture:
 
-- Open a Pull Request.
+- **[Contributing Guide](./docs/CONTRIBUTING.md)** - Complete contribution workflow
+- **[Development Guide](./docs/DEVELOPMENT.md)** - Technical setup and build process
+- **[Architecture Guide](./docs/ARCHITECTURE.md)** - Project structure and design decisions
 
-Please ensure your code follows the project’s coding standards and includes appropriate documentation. All the commits must be signed.
+### 🎯 Ways to Contribute
+
+- **🎨 Theme Improvements**: Enhance colors, add language support
+- **🐛 Bug Fixes**: Fix syntax highlighting issues or color problems
+- **📖 Documentation**: Improve guides, add examples
+- **🔧 Tooling**: Enhance build scripts or CI/CD
+
+### 📋 Requirements
+
+- All commits must be **signed** (`git commit -S`)
+- Include **screenshots** for visual changes
+- Follow **Material Design** color principles
+- Test with **multiple file types**
+
+Ready to contribute? Check out the [docs directory](./docs/) to get started!
 
 ## 📜 License
 
@@ -107,7 +123,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 ## 💬 Feedback
 
-If you have any feedback, suggestions, or issues, please [open an issue](https://github.com/vihuvac/material-theme-for-vscode/issues) on GitHub. I’d love to hear from you!
+If you have any feedback, suggestions, or issues, please [open an issue](https://github.com/vihuvac/material-theme-for-vscode/issues) on GitHub. I'd love to hear from you!
 
 ## 🙏 Credits
 
@@ -118,9 +134,7 @@ If you have any feedback, suggestions, or issues, please [open an issue](https:/
 ## 🔗 Connect with Me
 
 - [GitHub](https://github.com/vihuvac)
-
 - [LinkedIn](https://www.linkedin.com/in/vihuvac/)
-
 - [Website](https://vihuvac.com/)
 
 ## 🌟 Show Your Support

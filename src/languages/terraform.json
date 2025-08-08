@@ -1,0 +1,35 @@
+{
+  "tokenColors": [
+    {
+      "name": "Terraform - String Quotation Marks",
+      "scope": [
+        "punctuation.definition.string.begin.hcl",
+        "punctuation.definition.string.end.hcl"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Terraform - Resource and Data Block Types",
+      "scope": [
+        "source.hcl.terraform entity.name.type.terraform",
+        "source.hcl.terraform entity.name.type.hcl"
+      ],
+      "settings": {
+        "foreground": "#C792EA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Terraform - Resource Names",
+      "scope": [
+        "source.hcl.terraform variable.other.enummember.hcl"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "editor.background": "#263238",
+    "editor.foreground": "#EEFFFF",
+    "editorCursor.foreground": "#FFCC00",
+    "editor.selectionBackground": "#546E7A80",
+    "editor.lineHighlightBackground": "#314549",
+    "editorGutter.background": "#263238",
+    "editorGutter.modifiedBackground": "#FFCB6B",
+    "editorGutter.addedBackground": "#C3E88D",
+    "editorGutter.deletedBackground": "#FF5370",
+    "activityBar.background": "#1E272C",
+    "activityBar.foreground": "#EEFFFF",
+    "activityBarBadge.background": "#007ACC",
+    "activityBarBadge.foreground": "#EEFFFF",
+    "sideBar.background": "#1E272C",
+    "sideBar.foreground": "#EEFFFF",
+    "sideBarTitle.foreground": "#BBBBBB",
+    "statusBar.background": "#1E272C",
+    "statusBar.foreground": "#EEFFFF",
+    "statusBar.noFolderBackground": "#1E272C",
+    "statusBar.debuggingBackground": "#FF5370",
+    "tab.activeBackground": "#314549",
+    "tab.inactiveBackground": "#1E272C",
+    "tab.activeForeground": "#EEFFFF",
+    "tab.inactiveForeground": "#BBBBBB"
+  }
+}

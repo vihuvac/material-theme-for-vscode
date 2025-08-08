@@ -1,0 +1,48 @@
+name: Build and Publish Extension
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  build-and-publish:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Build the theme from source files (using npm script)
+      - name: Build theme from source files
+        run: npm run build
+
+      # Verify the theme was built
+      - name: Verify theme build
+        run: |
+          if [ ! -f "themes/material-theme-for-vscode-dark.json" ]; then
+            echo "❌ Theme build failed - output file not found"
+            exit 1
+          fi
+          echo "✅ Theme built successfully"
+          echo "📊 Theme stats:"
+          echo "   File size: $(du -h themes/material-theme-for-vscode-dark.json | cut -f1)"
+          echo "   Lines: $(wc -l < themes/material-theme-for-vscode-dark.json)"
+
+      # Install vsce
+      - name: Install vsce
+        run: npm i -g @vscode/vsce
+
+      # Publish the extension to the VS Code Marketplace
+      - name: Publish to VS Code Marketplace
+        run: vsce publish --pat ${{ secrets.VSCODE_MARKETPLACE_TOKEN }}

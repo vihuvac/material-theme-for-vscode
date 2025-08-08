@@ -1,0 +1,217 @@
+{
+  "tokenColors": [
+    {
+      "name": "PHP Keywords and Control",
+      "scope": [
+        "constant.character.escape.octal.php",
+        "keyword.control.php",
+        "keyword.other.type.php",
+        "keyword.control.for.php",
+        "support.function.construct.php",
+        "punctuation.section.embedded.end.php",
+        "support.function.construct.output.php",
+        "punctuation.section.embedded.begin.php",
+        "keyword.operator.logical.php",
+        "storage.type.php",
+        "storage.modifier.php",
+        "storage.type.class.php",
+        "keyword.control.case.php",
+        "keyword.control.break.php",
+        "storage.type.function.php",
+        "keyword.control.switch.php",
+        "storage.modifier.extends.php",
+        "constant.character.escape.php",
+        "storage.modifier.final.php",
+        "keyword.control.while.php",
+        "storage.type.trait.php",
+        "keyword.control.yield.php",
+        "keyword.control.default.php",
+        "storage.type.interface.php",
+        "keyword.control.import.include.php",
+        "storage.modifier.implements.php",
+        "keyword.control.declare.php",
+        "keyword.control.exception.catch.php",
+        "keyword.control.exception.php",
+        "keyword.control.foreach.php",
+        "keyword.other.namespace.php",
+        "keyword.control.return.php",
+        "keyword.control.else.php",
+        "keyword.control.if.php",
+        "keyword.other.use.php",
+        "keyword.other.new.php"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "PHP Variables",
+      "scope": [
+        "constant.language.php",
+        "variable.other.php",
+        "variable.other.local.php",
+        "variable.other.global.php",
+        "variable.other.php.dollar.php",
+        "variable.other.global.safer.php",
+        "variable.other.php.dollar.bracket.php",
+        "punctuation.definition.variable.php",
+        "variable.language.this.php",
+        "variable.other.class.php",
+        "constant.other.class.php",
+        "constant.other.php",
+        "punctuation.definition.array.begin.php",
+        "punctuation.definition.array.end.php",
+        "punctuation.separator.key-value.php"
+      ],
+      "settings": {
+        "foreground": "#B59BD1"
+      }
+    },
+    {
+      "name": "PHP Constants",
+      "scope": [
+        "support.constant.std.php",
+        "support.constant.ext.php",
+        "support.constant.core.php",
+        "constant.other.class.php"
+      ],
+      "settings": {
+        "foreground": "#B59BD1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP Functions",
+      "scope": [
+        "support.function.constructor.php",
+        "support.function.array.php",
+        "support.function.math.php",
+        "support.function.json.php",
+        "meta.function-call.php",
+        "entity.name.function.php"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "PHP Operators and Punctuation",
+      "scope": [
+        "constant.other.php",
+        "keyword.operator.key.php",
+        "keyword.operator.class.php",
+        "keyword.operator.ternary.php",
+        "keyword.operator.assignment.php",
+        "punctuation.section.array.end.php",
+        "keyword.operator.return-value.php",
+        "punctuation.section.array.begin.php",
+        "keyword.operator.null-coalescing.php",
+        "meta.embedded.inline.phpx punctuation.definition.tag.begin.html",
+        "meta.embedded.inline.phpx punctuation.definition.tag.end.html",
+        "punctuation.definition.arguments.begin.bracket.round.php",
+        "punctuation.definition.arguments.end.bracket.round.php",
+        "keyword.operator.increment-decrement.php",
+        "punctuation.terminator.expression.php",
+        "punctuation.separator.delimiter.php",
+        "punctuation.separator.inheritance.php",
+        "keyword.definition.arrow.php",
+        "keyword.operator.string.php",
+        "source.sql.embedded.php",
+        "source.sql"
+      ],
+      "settings": {
+        "foreground": "#E8E8E8"
+      }
+    },
+    {
+      "name": "PHP classes and Namespaces",
+      "scope": [
+        "meta.class.php support.other.namespace.php",
+        "meta.class.php meta.class.body.php meta.method-call.php support.other.namespace.php",
+        "support.class.php",
+        "support.other.namespace.php",
+        "support.class.builtin.php",
+        "entity.name.type.class.php",
+        "entity.name.type.namespace.php",
+        "entity.other.inherited-class.php"
+      ],
+      "settings": {
+        "foreground": "#E8E8E8"
+      }
+    },
+    {
+      "name": "PHP DocBlock",
+      "scope": [
+        "keyword.other.phpdoc.php",
+        "comment.block.documentation meta.other.type.phpdoc.php"
+      ],
+      "settings": {
+        "foreground": "#E8E8E8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP Strings",
+      "scope": [
+        "source.php string"
+      ],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "PHP Numbers",
+      "scope": [
+        "source.php constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#4DD0E1"
+      }
+    },
+    {
+      "name": "PHP Comments",
+      "scope": [
+        "source.php comment"
+      ],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP Property Names",
+      "scope": [
+        "constant.other.table-name.sql",
+        "variable.other.property.php"
+      ],
+      "settings": {
+        "foreground": "#E1A2D3"
+      }
+    },
+    {
+      "name": "PHP Attributes",
+      "scope": [
+        "meta.attribute.php",
+        "punctuation.decorator.php",
+        "meta.decorator entity.name.function.php",
+        "constant.other.character-class.regexp",
+        "meta.attribute.php support.attribute.php",
+        "meta.class.php meta.attribute.php support.other.namespace.php"
+      ],
+      "settings": {
+        "foreground": "#D4C570"
+      }
+    },
+    {
+      "name": "PHP Embedded Variables in Attributes",
+      "scope": [
+        "meta.embedded.block.php meta.method-call.php entity.name.variable.parameter.php",
+        "meta.embedded.block.php meta.attribute.php entity.name.variable.parameter.php",
+        "meta.embedded.block.php meta.attribute.php punctuation.separator.colon.php"
+      ],
+      "settings": {
+        "foreground": "#7EAFE3"
+      }
+    }
+  ]
+}
