@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2025-08-07
+
+There is not a specific ticket for these changes.
+
+### Fixed
+
+- The `.vscodeignore` file to allow the required files for publishing the theme in the Marketplace.
+
 ## [0.1.0] - 2025-08-07
 
 There is not a specific ticket for these changes.
