@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2025-08-13
+
+There is not a specific ticket for these changes.
+
+### Added
+
+- NPM script and Workflow step to publish the extension on the Open VSX Registry.
+
+### Changed
+
+- Removed deprecated NPM script `prebuild`.
+- Updated NPM scripts to publish the extension in multiple Marketplaces/Registries.
+
 ## [0.1.1] - 2025-08-07
 
 There is not a specific ticket for these changes.
