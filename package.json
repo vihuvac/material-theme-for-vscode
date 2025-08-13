@@ -15,10 +15,10 @@
   "homepage": "https://github.com/vihuvac/material-theme-for-vscode",
   "keywords": [
     "vscode",
+    "openvsx",
     "theme",
     "material",
-    "dark",
-    "openvsx"
+    "dark"
   ],
   "engines": {
     "vscode": "^1.60.0"
