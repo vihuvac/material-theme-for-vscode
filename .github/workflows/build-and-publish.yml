@@ -39,10 +39,14 @@ jobs:
           echo "   File size: $(du -h themes/material-theme-for-vscode-dark.json | cut -f1)"
           echo "   Lines: $(wc -l < themes/material-theme-for-vscode-dark.json)"
 
-      # Install vsce
-      - name: Install vsce
-        run: npm i -g @vscode/vsce
+      # Install vsce and ovsx
+      - name: Install vsce and ovsx
+        run: npm i -g @vscode/vsce ovsx
 
       # Publish the extension to the VS Code Marketplace
       - name: Publish to VS Code Marketplace
         run: vsce publish --pat ${{ secrets.VSCODE_MARKETPLACE_TOKEN }}
+
+      # Publish the extension to the Open VSX Registry
+      - name: Publish to Open VSX Registry
+        run: ovsx publish --pat ${{ secrets.OPENVSX_REGISTRY_TOKEN }}
