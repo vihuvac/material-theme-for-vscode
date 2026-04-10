@@ -207,6 +207,28 @@
       "settings": {
         "foreground": "#EEFFFF"
       }
+    },
+    {
+      "name": "JavaScript/TypeScript Object Literal Keys",
+      "scope": [
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.jsx",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx"
+      ],
+      "settings": {
+        "foreground": "#DCD0E2"
+      }
+    },
+    {
+      "name": "TypeScript Type/Interface Property Keys",
+      "scope": [
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#DCD0E2"
+      }
     }
   ]
 }
