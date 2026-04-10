@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-04-09
+
+There is not a specific ticket for these changes.
+
+### Added
+
+- Custom colours for object literal and type definition keys in Javascript and Typescript.
+
 ## [0.1.2] - 2025-08-13
 
 There is not a specific ticket for these changes.
